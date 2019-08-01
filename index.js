@@ -10,4 +10,10 @@ app.use("/api/team", require("./routes/teamRoute"));
 
 app.get("/", (req, res) => res.send(`hello`));
 
+app.set("port", process.env.PORT || 8080);
+
+app.listen(app.get("port"), () => {
+  console.log(`✅ PORT: ${app.get("port")} 🌟`);
+});
+
 app.listen(3000, () => console.log("server running on 3000"));
