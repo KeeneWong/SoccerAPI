@@ -5,7 +5,7 @@ const CountrySchema = new Schema({
   name: String,
   code: String,
   flag: String,
-  league: [
+  leagueref: [
     {
       type: Schema.Types.ObjectId,
       ref: "League"

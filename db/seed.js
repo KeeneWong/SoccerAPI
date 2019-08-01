@@ -9,7 +9,7 @@ const Team = require("../models/team");
 Country.remove({}).then(start => {
   const newCountry = countriesdata.map(each => {
     const neweach = {
-      name: each.name,
+      name: each.country,
       code: each.code,
       flag: each.flag
     };
