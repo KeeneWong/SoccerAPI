@@ -8,5 +8,11 @@ router.get("/", countryController.index);
 router.get("/id/:id", countryController.getbyid);
 //get country by name
 router.get("/name/:name", countryController.getbyname);
+//create a new country by json
+router.post("/", countryController.create);
+//update a country by json
+router.put("/:id", countryController.update);
+//delete a country by json
+router.delete("/:id", countryController.delete);
 
 module.exports = router;

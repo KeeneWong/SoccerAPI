@@ -9,5 +9,18 @@ module.exports = {
   },
   getbyname: (req, res) => {
     League.findOne({ name: req.params.name }).then(data => res.json(data));
+  },
+  create: (req, res) => {
+    League.create(req.body).then(data => res.json(data));
+  },
+  update: (req, res) => {
+    League.findOneAndUpdate({ _id: req.params.id }, req.body, {
+      new: true
+    }).then(data => res.json(data));
+  },
+  delete: (req, res) => {
+    League.findOneAndDelete({ _id: req.params.id }).then(data =>
+      res.json(data)
+    );
   }
 };
