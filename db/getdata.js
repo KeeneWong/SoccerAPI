@@ -1,7 +1,10 @@
 var unirest = require("unirest");
 const fs = require("fs");
 
-var req = unirest("GET", "https://api-football-v1.p.rapidapi.com/v2/countries");
+var req = unirest(
+  "GET",
+  "https://api-football-v1.p.rapidapi.com/v2/teams/league/10"
+);
 
 req.headers({
   "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
@@ -11,9 +14,18 @@ req.headers({
 req.end(function(res) {
   if (res.error) throw new Error(res.error);
 
-  //   console.log(res.body);
-  let stringified = JSON.stringify(res.body.api.countries);
-  fs.writeFile(__dirname + "/countries.json", stringified, "utf8", err => {
+  let data = res.body.api.teams;
+
+  // console.log(res.body);
+  data.forEach(each => {
+    each.league_id = 10;
+  });
+
+  console.log(data);
+
+  let stringified = JSON.stringify(res.body.api.teams);
+
+  fs.writeFile(__dirname + "/team10.json", stringified, "utf8", err => {
     if (err) {
       console.error(err);
     } else {
