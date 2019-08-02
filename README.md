@@ -1,7 +1,5 @@
 # SoccerAPI
 
-# Project-1-Hang-Man-KeeneWong
-
 Description
 
 <!-- What your project is / should be used for -->
