@@ -57,17 +57,17 @@ Function of SoccerAPI:
 
     example output:
 
-    {
-    _id: "5d430238b1f7250004731b9b",
-    team_id: 23,
-    name: "Saudi Arabia",
-    code: null,
-    country: "Saudi Arabia",
-    founded: 1956,
-    league_id: 1,
-    venue: null,
-    leagueref: "5d430238b1f7250004731b81"
-    }
+        {
+        _id: "5d430238b1f7250004731b9b",
+        team_id: 23,
+        name: "Saudi Arabia",
+        code: null,
+        country: "Saudi Arabia",
+        founded: 1956,
+        league_id: 1,
+        venue: null,
+        leagueref: "5d430238b1f7250004731b81"
+        }
 
 You can get all the information of the soccer team.
 
@@ -80,13 +80,13 @@ You can get all the information of the soccer team.
 
     example output:
 
-    {
-    leagueref: [ ],
-    _id: "5d430238b1f7250004731b10",
-    name: "Belarus",
-    code: "BY",
-    flag: "https://www.api-football.com/public/flags/by.svg"
-    }
+        {
+        leagueref: [ ],
+        _id: "5d430238b1f7250004731b10",
+        name: "Belarus",
+        code: "BY",
+        flag: "https://www.api-football.com/public/flags/by.svg"
+        }
 
 You can get all the information of the countries.
 
