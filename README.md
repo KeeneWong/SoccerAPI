@@ -94,31 +94,31 @@ Other functions:
 
  4. Get country by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/country/id/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/country/id/:id
 
 
  5. Get country by name
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/country/name/:name
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/country/name/:name
 
 
  6. Update country by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/country/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/country/:id
 
 
  7. Delete country by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/country/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/country/:id
 
  8. Get team by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/team/id/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/team/id/:id
 
 
  9. Get team by name
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/team/name/:name
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/team/name/:name
 
 
  10. Update team by id
