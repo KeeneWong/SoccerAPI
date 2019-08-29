@@ -123,61 +123,31 @@ Other functions:
 
  10. Update team by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/team/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/team/:id
 
 
  11. Delete team by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/team/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/team/:id
 
  12. Get league by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/league/id/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/league/id/:id
 
 
  13. Get league by name
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/league/name/:name
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/league/name/:name
 
 
  14. Update league by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/league/:id
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/league/:id
 
 
  15. Delete league by id
 
-    endpoint:  https://keenesoccerapi.herokuapp.com/api/league/:id
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        endpoint:  https://keenesoccerapi.herokuapp.com/api/league/:id
 
 
 
