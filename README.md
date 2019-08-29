@@ -23,7 +23,7 @@ Function of SoccerAPI:
 
 1. Get all the teams of the supported league
 
-    Use axios or fetch to create a GET http request to https://keenesoccerapi.herokuapp.com/api/team.
+    Use axios or fetch to create a GET http request to https://keenesoccerapi.herokuapp.com/api/league.
 
     with this endpoint you can get all the leagues information
 
@@ -47,7 +47,32 @@ Function of SoccerAPI:
         countryref: "5d430238b1f7250004731b29"
         }
 
-        You can get the teams in that league, id of the league, name etc.
+ You can get the teams in that league, id of the league, name etc.
+
+2. Get all the teams 
+
+    Use axios or fetch to create a GET http request to https://keenesoccerapi.herokuapp.com/api/team.
+
+    with this endpoint you can get all the teams information
+
+    example output:
+
+    {
+    _id: "5d430238b1f7250004731b9b",
+    team_id: 23,
+    name: "Saudi Arabia",
+    code: null,
+    country: "Saudi Arabia",
+    founded: 1956,
+    league_id: 1,
+    venue: null,
+    leagueref: "5d430238b1f7250004731b81"
+    }
+
+You can get all the information of the soccer team.
+
+
+
 
     
 
