@@ -72,6 +72,24 @@ Function of SoccerAPI:
 You can get all the information of the soccer team.
 
 
+3. Get all the country 
+
+    Use axios or fetch to create a GET http request to https://keenesoccerapi.herokuapp.com/api/country.
+
+    with this endpoint you can get all the countries information
+
+    example output:
+
+    {
+    leagueref: [ ],
+    _id: "5d430238b1f7250004731b10",
+    name: "Belarus",
+    code: "BY",
+    flag: "https://www.api-football.com/public/flags/by.svg"
+    }
+
+You can get all the information of the countries.
+
 
 
     
