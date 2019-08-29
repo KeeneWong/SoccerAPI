@@ -16,6 +16,46 @@ Just use the endpoint and grab my data.
 
 <img src="./soccer.jpg">
 
+SoccerAPI support information of 8 leagues and over 200 teams
+
+
+Function of SoccerAPI:
+
+1. Get all the teams of the supported league
+
+    Use axios or fetch to create a GET http request to https://keenesoccerapi.herokuapp.com/api/team.
+
+    with this endpoint you can get all the leagues information
+
+    example output:
+    
+        {
+        teams: [
+        "5d430238b1f7250004731bab",
+        "5d430238b1f7250004731bac",
+        "5d430238b1f7250004731bad",
+        "5d430238b1f7250004731bae",
+        "5d430238b1f7250004731baf",
+        "5d430238b1f7250004731bb0",
+        ],
+        _id: "5d430238b1f7250004731b82",
+        league_id: 2,
+        name: "Premier League",
+        countrycode: null,
+        country: "England",
+        __v: 2,
+        countryref: "5d430238b1f7250004731b29"
+        }
+
+        You can get the teams in that league, id of the league, name etc.
+
+    
+
+
+
+
+
+
 
 
 
