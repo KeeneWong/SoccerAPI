@@ -14,6 +14,17 @@ it's like a database of football team and league.
 Just use the endpoint and grab my data.
 
 
+Used Programming Skills :
+JavaScript
+Node.js
+Express
+MongoDb
+Mongoose
+Ajax 
+Axios
+CRUD API
+
+
 <img src="./soccer.jpg">
 
 SoccerAPI support information of 8 leagues and over 200 teams
