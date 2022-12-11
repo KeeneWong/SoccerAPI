@@ -19,7 +19,7 @@
   "homepage": "https://github.com/KeeneWong/SoccerAPI#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.6.7",
     "unirest": "^0.6.0"
   }
